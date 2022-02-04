@@ -1,0 +1,8 @@
+# inspired from App Academy course
+node_modules/
+bundle.js
+bundle.js.map
+
+# inspired from LIO Ryan's advice - good for Parcel
+.parcel-cache
+dist
