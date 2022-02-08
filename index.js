@@ -12,6 +12,7 @@ function TemporaryName() {
             <li>Has well over 100K stars on GitHub</li>
             <li>Is maintained by Facebook</li>
             <li>Powers thousands of enterprise apps, including mobile apps</li>
+            <li>Excellent cross platform support</li>
          </ul>
       </>
    )
