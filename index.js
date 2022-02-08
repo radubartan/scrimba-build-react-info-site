@@ -1,26 +1,21 @@
-import ReactDOM from "react-dom";
-import logo from '../scrimba-build-react-info-site/images/logo_React_v1.png';
+import ReactDOM from "react-dom"
 
-function TemporaryName() {
+function Why_I_am_excited_to_learn_React() {
    return (
       <>
-         <img src={logo} width='40px' alt="logo"/>
-         <h1>Fun facts about React</h1>
-         <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on GitHub</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-            <li>Excellent cross platform support</li>
-         </ul>
+         <h3>Why I am excited to learn React</h3>
+         <ol>
+            <li>React will blend my strength in front end design with my desire to build full stack apps</li>
+            <li>I will get to implement JavaScript & React UI goodies seen on CodePen</li>
+            <li>Using React makes it exciting to be on the cutting edge of front end technologies</li>
+            <li>At some point I want to build SASS businesses based on the React sites I build</li>
+            <li>I will get to work professionally on website UIs - which is what I want to do</li>
+         </ol>
       </>
    )
 }
 
-ReactDOM.render(<TemporaryName/>, document.getElementById("root"))
-
-
+ReactDOM.render(<Why_I_am_excited_to_learn_React />, document.getElementById('root'))
 
 
 
