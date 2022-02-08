@@ -1,19 +1,27 @@
 import ReactDOM from "react-dom";
+import logo from '../scrimba-build-react-info-site/images/logo_React_v1.png';
 
-ReactDOM.render(
-   <div>
-      <h2>Cleveland Browns Linebackers</h2>
-      <ul>
-         <li>Jeremiah Owusu-Koramoah</li>
-         <li>Anthony Walker</li>
-         <li>Sione Takitaki</li>
-         <li>Malcolm Smith</li>
-         <li>Mack Wilson</li>
-         <li>Jacob Phillips</li>
-         <li>Tony Fields II</li>
-      </ul>
-   </div>, 
-   document.getElementById("root"));
+function TemporaryName() {
+   return (
+      <>
+         <img src={logo} width='40px' alt="logo"/>
+         <h1>Fun facts about React</h1>
+         <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+         </ul>
+      </>
+   )
+}
+
+ReactDOM.render(<TemporaryName/>, document.getElementById("root"))
+
+
+
+
 
 
 
