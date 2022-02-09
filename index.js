@@ -5,12 +5,12 @@ import '../scrimba-build-react-info-site/src/css/style.css'
 function Header() {
    return (
          <header>
-            <nav className="d-flex flex-row">
-               <img src={logo} width="40px" height="40px" className="logoFlex" />
+            <nav className="nav">
+               <img src={logo} className="nav-logo"/>
                <ul className="nav-items">
-                  <li className="li-item">Pricing</li>
-                  <li className="li-item">About</li>
-                  <li className="li-item">Contact</li>
+                  <li>Pricing</li>
+                  <li>About</li>
+                  <li>Contact</li>
                </ul>
             </nav>
          </header>
