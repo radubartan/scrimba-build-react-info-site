@@ -19,7 +19,7 @@ function Header() {
 
 function MainContent() {
    return (
-      <>
+      <div className="mainContent">
          <h1>Reasons I'm excited to learn React</h1>
          <ol>
             <li>It's a popular library, so I'll be
@@ -27,13 +27,13 @@ function MainContent() {
             <li>I'm more likely to get a job as a developer
                if I know React</li>
          </ol>
-      </>
+      </div>
    )
 }
 
 function Footer() {
    return (
-         <footer>
+         <footer className="footer">
             <small>© 2021 Ziroll development. All rights reserved.</small>
          </footer>
    )
