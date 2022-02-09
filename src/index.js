@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom"
-import '../scrimba-build-react-info-site/src/css/style.css'
+import '../src/css/style.css'
 import Header from "./Header.js"
 import MainContent from "./MainContent.js"
 import Footer from "./Footer.js"

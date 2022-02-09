@@ -1,4 +1,4 @@
-import logo from "../scrimba-build-react-info-site/src/images/logo_React_v3.png"
+import logo from "../src/images/logo_React_v3.png"
 
 function Header() {
    return (
