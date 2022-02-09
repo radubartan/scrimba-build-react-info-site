@@ -1,0 +1,17 @@
+.nav-items {
+   list-style: none;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.li-item { 
+   display: inline-block; 
+   padding-right: 10px;
+}
+
+.logoFlex {
+   margin: 15px 0px 0px 20px;
+}
+
+
+

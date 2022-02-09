@@ -1,15 +1,19 @@
 import ReactDOM from "react-dom"
-import logo from "../scrimba-build-react-info-site/images/logo_React_v3.png"
+import logo from "../scrimba-build-react-info-site/src/images/logo_React_v3.png"
+import '../scrimba-build-react-info-site/src/css/style.css'
 
 function Header() {
    return (
-      <>
          <header>
-            <nav>
-               <img src={logo} width="40px" />
+            <nav className="d-flex flex-row">
+               <img src={logo} width="40px" height="40px" className="logoFlex" />
+               <ul className="nav-items">
+                  <li className="li-item">Pricing</li>
+                  <li className="li-item">About</li>
+                  <li className="li-item">Contact</li>
+               </ul>
             </nav>
          </header>
-      </>
    )
 }
 
@@ -27,14 +31,11 @@ function MainContent() {
    )
 }
 
-
 function Footer() {
    return (
-      <>
          <footer>
             <small>© 2021 Ziroll development. All rights reserved.</small>
          </footer>
-      </>
    )
 }
 
