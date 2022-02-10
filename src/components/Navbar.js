@@ -2,10 +2,10 @@ import logo from '../images/react-icon-small.png'
 
 function Navbar() {
    return (
-      <nav className='nav d-flex flex-row'>
-         <div className='logo'><img src={logo}/></div>
-         <div className='reactFacts'>ReactFacts</div>
-         <div className='reactCourse'>React Course - Project 1</div>
+      <nav>
+         <img className="nav--icon" src={logo}/>
+         <h3 className="nav--logo_text">ReactFacts</h3>
+         <h4 className="nav--title">React Course - Project 1</h4>
       </nav>
    )
 }
