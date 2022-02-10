@@ -3,15 +3,7 @@ import '../src/css/style.css'
 import App from "../src/App.js"
 
 
-function Page() {
-   return (
-      <div>
-         <App />
-      </div>
-   )
-}
-
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
 
 
 

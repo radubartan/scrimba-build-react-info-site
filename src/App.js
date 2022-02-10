@@ -3,11 +3,10 @@ import Main from './components/Main.js'
 
 function App() {
    return (
-      <>
+      <div className='container'>
          <Navbar />
          <Main />
-      </>
-
+      </div>
    )
 }
 
