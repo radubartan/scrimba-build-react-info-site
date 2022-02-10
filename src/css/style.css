@@ -24,3 +24,28 @@ nav {
    margin-right: 7px;
 }
 
+/* Main styles */
+.mainContainer {
+   background-color:#282D35;
+}
+.funFacts {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 39.06px;
+   line-height: 47px;
+   letter-spacing: -0.05em;
+   color: #FFFFFF;
+   padding: 50px 0px 27px 46px;
+   background-color:#282D35;
+}
+.listFacts {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+   color: #FFFFFF;
+   padding: 0px 0px 125px 91px;
+}
+
