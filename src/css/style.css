@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
-body { margin: 0; font-family: Inter, sans-serif; }
+body {
+   margin: 0;
+   font-family: Inter, sans-serif;
+   height: 100vh;
+   background-color: #282D35;
+}
 nav {
    display: flex;
    align-items: center;
@@ -14,38 +19,20 @@ nav {
    font-weight: 700;
    font-size: 22px;
 }
-.nav--title {
-   color: #DEEBF8;
-   font-weight: 600;
-   font-size: 16px;
-}
-.nav--icon {
-   height: 30px;
-   margin-right: 7px;
-}
-
-/* Main styles */
-.mainContainer {
-   background-color:#282D35;
-}
-.funFacts {
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 39.06px;
-   line-height: 47px;
+.nav--title { color: #DEEBF8; font-weight: 600; }
+.nav--icon { height: 30px; margin-right: 7px; }
+main { padding: 57px 27px; color: white; }
+.main--title {
+   margin: 0;
+   font-size: 39px;
    letter-spacing: -0.05em;
-   color: #FFFFFF;
-   padding: 50px 0px 27px 46px;
-   background-color:#282D35;
 }
-.listFacts {
-   font-family: Inter;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 32px;
-   color: #FFFFFF;
-   padding: 0px 0px 125px 91px;
+.main--facts {
+   margin-top: 46px;
+   max-width: 400px;
+}
+.main--facts > li {
+   line-height: 19px;
+   padding-block: 10px;
 }
 
