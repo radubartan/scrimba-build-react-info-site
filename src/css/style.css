@@ -25,10 +25,8 @@ main {
    padding: 57px 27px; 
    color: white; 
    background-image: url('../images/react-icon-large.png');
-   background-position: right center;
-   background-size: contain;
    background-repeat: no-repeat;
-   background-size: 132px 263px;
+   background-position: right 75%;
 }
 .main--title {
    margin: 0;
