@@ -1,42 +1,25 @@
-.nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   padding: 10px 10px 10px 0px; 
-}
+* { box-sizing: border-box; }
+body { margin: 0; }
 
-.nav-logo {
-   width: 60px;
-   margin-left: 15px;
+.nav { padding: 40px 20px 40px 20px; background: #21222A; }
+.logo { margin: 0px 7px 0px 6px; }
+.reactFacts { 
+   flex-grow: 1; 
+   font-family: Inter;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 27px;
+   letter-spacing: -0.05em;
+   color: #61DAFB;
 }
-
-.nav-items {
-   list-style: none;
-   display: flex;
-}
-
-.nav-items > li {
-   padding: 10px;
-}
-
-.mainContent {
-   padding: 20px 0px 20px 20px;
-}
-
-.footer {
-   background-color: #EDEDED;
-   color: #ACACAC;
-   padding: 10px 10px 10px 35px;
-}
-
-.font_FiraSansCondensed_regular400 {
-   font-family: 'Fira Sans Condensed', sans-serif;
-   font-weight: 400;
-}
-
-.font_FiraSansCondensed_extraBold800 {
-   font-family: 'Fira Sans Condensed', sans-serif;
-   font-weight: 800;
+.reactCourse {
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: right;
+   color: #DEEBF8;
+   margin-right: 5px;
 }
 
