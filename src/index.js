@@ -1,15 +1,12 @@
 import ReactDOM from "react-dom"
 import '../src/css/style.css'
-import Header from "./Header.js"
-import MainContent from "./MainContent.js"
-import Footer from "./Footer.js"
+import App from "../src/App.js"
+
 
 function Page() {
    return (
       <div>
-         <Header />
-         <MainContent />
-         <Footer />
+         <App />
       </div>
    )
 }
