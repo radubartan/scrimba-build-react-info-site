@@ -24,6 +24,7 @@ nav {
 main { padding: 57px 27px; color: white; }
 .main--title {
    margin: 0;
+   font-weight: 700;
    font-size: 39px;
    letter-spacing: -0.05em;
 }
@@ -35,4 +36,5 @@ main { padding: 57px 27px; color: white; }
    line-height: 19px;
    padding-block: 10px;
 }
+.main--facts > li::marker { color: #61DAFB;; font-size: 1.4rem; }
 
