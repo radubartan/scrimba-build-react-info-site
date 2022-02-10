@@ -21,7 +21,15 @@ nav {
 }
 .nav--title { color: #DEEBF8; font-weight: 600; }
 .nav--icon { height: 30px; margin-right: 7px; }
-main { padding: 57px 27px; color: white; }
+main { 
+   padding: 57px 27px; 
+   color: white; 
+   background-image: url('../images/react-icon-large.png');
+   background-position: right center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: 132px 263px;
+}
 .main--title {
    margin: 0;
    font-weight: 700;
