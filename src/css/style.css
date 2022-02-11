@@ -24,7 +24,8 @@ nav {
 main { 
    padding: 57px 27px; 
    color: white; 
-   background-image: url('../images/react-icon-large.png');
+   /* background-image: url('../images/react-icon-large.png'); */
+   background-image: url('https://res.cloudinary.com/analogyofpearl/image/upload/v1644605553/Shared/scrimba-build-react-info-site/react-icon-large.png');
    background-repeat: no-repeat;
    background-position: right 75%;
 }
